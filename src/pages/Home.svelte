@@ -13,8 +13,7 @@
 			>
 		</li>
 		<li><a href="https://twitter.com/cha0sg0d_" target="_blank">Twitter</a></li>
-		{#if base}
-			<li><a href="{base}/blog">Blog</a></li>
-		{/if}
+		<li><a href="{base}/blog">Blog</a></li>
+		<li><a href="{base}/spanish">Spanish</a></li>
 	</ul>
 </div>

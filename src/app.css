@@ -14,4 +14,30 @@
 	h2 {
 		@apply text-xl;
 	}
+	a {
+		@apply text-blue-600;
+		@apply underline;
+	}
+	ul {
+		@apply list-disc;
+		@apply list-inside;
+	}
+
+	li {
+		@apply mt-4;
+		@apply mb-0;
+		@apply list-inside;
+	}
+}
+
+@layer blog {
+	h1 {
+		@apply text-green-400;
+	}
+}
+
+@layer post {
+	code {
+		@apply font-bold;
+	}
 }

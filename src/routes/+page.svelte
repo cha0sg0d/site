@@ -1,10 +1,5 @@
-<script lang="ts">
-	import BlogLink from '$components/BlogLink.svelte';
-	import { posts } from '$text/blog';
+<script>
+	import Home from '$pages/Home.svelte';
 </script>
 
-<div class="px-10 pb-10">
-	{#each posts as { title, date }}
-		<BlogLink {title} {date} />
-	{/each}
-</div>
+<Home />

@@ -1,0 +1,52 @@
+.blog {
+	h1,
+	h2,
+	h3,
+	p {
+		@apply text-dark;
+		@apply w-full;
+		@apply text-left;
+	}
+
+	h1 {
+		@apply text-main;
+	}
+}
+
+.post {
+	@apply pb-[10rem];
+
+	a {
+		@apply text-blue-600;
+		@apply underline;
+	}
+
+	ul {
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+	li {
+		margin: 15px 0px;
+		list-style-position: inside;
+	}
+
+	ol,
+	ul,
+	p {
+		font-size: 14px;
+		margin: 0px;
+
+		li::marker {
+			font-weight: bold;
+		}
+
+		ol {
+			list-style-type: lower-alpha;
+		}
+	}
+
+	code {
+		font-weight: bold;
+	}
+}

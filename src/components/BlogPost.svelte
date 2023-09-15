@@ -28,6 +28,9 @@
 	<h2>Post not found</h2>
 {/if}
 {#if html}
-	<!-- svelte-expect-error html -->
-	{@html html}
+	<div class="h-full flex flex-col px-10 gap-6">
+		<div class="blog post flex flex-col gap-4 shrink h-full overflow-scroll">
+			{@html html}
+		</div>
+	</div>
 {/if}

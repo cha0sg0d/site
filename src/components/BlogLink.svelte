@@ -2,6 +2,8 @@
 	import { formatDate } from '$lib';
 	import { base } from '$app/paths';
 
+	$: console.log({ base });
+
 	export let title: string;
 	export let date: number;
 	const link = title.replace(/\s+/g, '-').toLowerCase();

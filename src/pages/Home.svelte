@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 </script>
 
 <div class="ml-5">
@@ -11,5 +12,6 @@
 			>
 		</li>
 		<li><a href="https://twitter.com/cha0sg0d_" target="_blank">Twitter</a></li>
+		<!-- <li><a href="{base}/blog">Blog</a></li> -->
 	</ul>
 </div>

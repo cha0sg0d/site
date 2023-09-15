@@ -1,5 +1,0 @@
-# Hi
-
-```js
-Hello world
-```

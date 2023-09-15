@@ -1,13 +1,11 @@
 <script lang="ts">
-	import { formatDate } from '$lib';
 	import { base } from '$app/paths';
 
 	$: console.log({ base });
 
 	export let title: string;
-	export let date: number;
+	export let date: string;
 	const link = title.replace(/\s+/g, '-').toLowerCase();
-	const cleanDate = formatDate(date);
 </script>
 
 <div
@@ -16,7 +14,7 @@
 	<a href="{base}/blog/{link}" class="w-full">
 		<div class="flex w-full justify-between items-center">
 			<p class="text-left font-bold">{title}</p>
-			<p>{cleanDate}</p>
+			<p>{date}</p>
 		</div>
 	</a>
 </div>

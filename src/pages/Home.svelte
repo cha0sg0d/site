@@ -1,8 +1,3 @@
-<script>
-	import { base } from '$app/paths';
-	console.log(base);
-</script>
-
 <div class="ml-5">
 	<p>Style coming soon...</p>
 	<ul>
@@ -13,7 +8,7 @@
 			>
 		</li>
 		<li><a href="https://twitter.com/cha0sg0d_" target="_blank">Twitter</a></li>
-		<li><a href="{base}/blog">Blog</a></li>
-		<li><a href="{base}/spanish">Spanish</a></li>
+		<li><a href="/blog">Blog</a></li>
+		<li><a href="/spanish">Spanish</a></li>
 	</ul>
 </div>
